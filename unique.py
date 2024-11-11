@@ -30,6 +30,6 @@ with open(file, 'r') as f:
 # Sort the unique words in alphabetical order (capitalized words come first)
 uniqueWords.sort()
 
-# Output: Print each unique word
+# Print each unique word
 for word in uniqueWords:
     print(word)
