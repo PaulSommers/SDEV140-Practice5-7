@@ -27,7 +27,7 @@ with open(file, 'r') as f:
             if word not in uniqueWords:
                 uniqueWords.append(word)
 
-# Sort the unique words in alphabetical order (capitalized words come first)
+# Sort the unique words in alphabetical order
 uniqueWords.sort()
 
 # Print each unique word
